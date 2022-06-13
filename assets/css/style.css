@@ -1,7 +1,11 @@
 :root {
     --primary-color:rgba(46, 56, 56, 0.966);
-  --secondary-color:rgb(95, 196, 186);
+  --secondary-color:rgb(115, 190, 184);
   --tertiary-color:rgb(54, 56, 99);
+}
+* {
+    margin: 0;
+    padding: 0;
 }
 body {
     color: var(--tertiary-color);
@@ -10,14 +14,15 @@ body {
 }
 /* apply styles to <header> */
 header {
-    padding: 15px 35px 15px 0px;
+    padding: 10px 35px 10px 0px;
     background-color: var(--primary-color);
 }
 header h1 {
     font-weight: bold;
     font-size: 50px;
     color: var(--primary-color);
-    margin: 0%;  
+    margin: 0%; 
+    display: inline; 
 }
 header h1 span {
     background-color: var(--secondary-color);
@@ -28,13 +33,16 @@ header a {
 }
 header nav {
     float: right;
-    margin: 7px 0;
+    margin: 15px 0;
 }
 header nav ul li {
     display: inline;
 }
 header nav ul li a {
-    margin: 0 30px;
+    display: inline;
+    border-bottom: 5px solid var(--secondary-color);
+    color: var(--secondary-color);
+    margin: 0 15px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 20px;
 }
