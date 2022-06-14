@@ -1,6 +1,6 @@
 :root {
     --primary-color:rgba(46, 56, 56, 0.966);
-  --secondary-color:rgb(115, 190, 184);
+  --secondary-color:rgb(144, 185, 206);
   --tertiary-color:rgb(54, 56, 99);
 }
 * {
@@ -39,10 +39,35 @@ header nav ul li {
     display: inline;
 }
 header nav ul li a {
-    display: inline;
     border-bottom: 5px solid var(--secondary-color);
     color: var(--secondary-color);
     margin: 0 15px;
     font-weight: lighter;
     font-size: 20px;
+}
+section {
+    padding: 60px;
+    
+}
+section h1 {
+    float: right;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--primary-color);
+    margin: 150px 40px; 
+    display: inline;
+}
+.highlight {
+    display: inline;
+    padding: .10em 0;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    box-shadow: .5em 0 0 var(--secondary-color), -.5em 0 0 var(--secondary-color);
+}
+/* banner */
+.banner {
+   background-image: url("../images/light-blue-navy-grey-striped-wood.jpg");
+    height: 175px;
+    background-size: cover;
+    background-position: center;
 }
