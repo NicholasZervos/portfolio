@@ -1,15 +1,16 @@
 :root {
     --primary-color:rgba(46, 56, 56, 0.966);
-  --secondary-color:rgb(144, 185, 206);
-  --tertiary-color:rgb(54, 56, 99);
+    --secondary-color:rgb(126, 185, 175);
+    --tertiary-color:rgb(54, 56, 99);
 }
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
     color: var(--tertiary-color);
-    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 /* apply styles to <header> */
@@ -66,7 +67,7 @@ section h1 {
 }
 /* banner */
 .banner {
-   background-image: url("../images/light-blue-navy-grey-striped-wood.jpg");
+   background-image: url("../images/banner.jpg");
     height: 175px;
     background-size: cover;
     background-position: center;
@@ -87,7 +88,7 @@ section h1 {
     text-align: right;
     line-height: 1.7;
     color: var(--tertiary-color);
-    width: 70%;
+    width: auto;
     font-size: 20px;
 }
 /* work section */
@@ -118,4 +119,33 @@ section h1 {
     color: var(--primary-color);
     font-size: 15px;
     margin-top: 10px;
+}
+.info{
+    text-align: center;
+}
+.info a {
+    text-decoration: none;
+}
+.info h2 {
+    font-size: 60px;
+    color: var(--tertiary-color);
+    padding: 0 100px 52px 100px;
+    border-right: 3px solid;
+    border-color: var(--primary-color);
+    float: left;
+}
+.info nav {
+    float: left;
+    margin: 40px 0;
+    padding: 0px 80px;
+}
+.info nav ul li {
+    display: inline;
+}
+.info nav ul li a {
+    border-bottom: 5px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+    margin: 0 15px;
+    font-weight: lighter;
+    font-size: 20px;
 }
