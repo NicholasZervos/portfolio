@@ -47,41 +47,59 @@
 <!-- "about me" section -->
     <section id="about-me" class="intro">
         <h2>About Me</h2>
+        
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos impedit laudantium veritatis recusandae molestias quaerat architecto tempora vitae suscipit? Nihil aperiam iure maxime magni deleniti labore nesciunt ducimus debitis!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus atque, similique 
         </p>
     </section>
 <!-- "work" section -->
-    <section id="work" class="projects">
+    <div class="projects">
         <h2>Work</h2>
-        <div>
-            <img src="./assets/images/surf.jpg" alt="">
-            <h3>Surf Report</h3>
-            <h4>Mern Stack</h4>
-        </div>
-        <div>
-            <img src="./assets/images/led-wall.jpg" alt="">
-            <h3>Led Wall</h3>
-            <h4>Node/IoT</h4>
-        </div>
-        <div>
-            <img src="./assets/images/calculator.jpg" alt="">
-            <h3>Calculator</h3>
-            <h4>React/JavaScript/CSS</h4>
-        </div>
-        <div>
-            <img src="./assets/images/pastel.jpg" alt="">
-            <h3>Pastel Puzzels</h3>
-            <h4>MERN Stack</h4>
-        </div>
-        <div>
-            <img src="./assets/images/run-buddy.jpg" alt="">
-            <h3>Run Buddy</h3>
-            <h4>HTML/CSS</h4>
-        </div>
+        <!-- <div class="image-grid"> -->
+        <div class="container">
+            <div class="row">
+                <div class="container-div lg-card">
+                    <img class="column-img" src="./assets/images/surf.jpg">
+                    <div class="text-block">
+                        <h3>Surf Report</h3>
+                        <p>Mern Stack</p>
+                    </div>
+                </div>
+            </div>
 
-    </section>
+            <div class="row">
+                <div class="container-div sm-card">
+                    <img class="column-img" src="./assets/images/led-wall.jpg">
+                    <div class="text-block">
+                    <h3>Led Wall</h3>
+                    <p>Node/IoT</p>
+                    </div>
+                </div> 
+                <div class="container-div sm-card">
+                    <img class="column-img" src="./assets/images/calculator.jpg">
+                    <div class="text-block">
+                    <h3>Calculator</h3>
+                    <p>React/JavaScript</p>
+                    </div>
+                </div>
+                <div class="container-div sm-card">
+                    <img class="column-img" src="./assets/images/pastel.jpg">
+                    <div class="text-block">
+                    <h3>Pastel Puzzles</h3>
+                    <p>MERN Stack</p>
+                    </div>
+                </div>  
+                <div class="container-div sm-card">
+                    <img class="column-img" src="./assets/images/run-buddy.jpg">
+                    <div class="text-block">
+                    <h3>Run Buddy</h3>
+                    <p>HTML/CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <!-- "contact me" section -->
     <section id="contact-me" class="info">
         <h2>Contact Me</h2>
@@ -97,13 +115,13 @@
                     <a href="#">lernantino@website.com</a>
                 </li>
                 <li>
-                    <a href="#c">GitHub</a>
+                    <a href="https://github.com/">GitHub</a>
                 </li>
                 <li>
-                    <a href="#">Twitter</a>
+                    <a href="https://twitter.com/">Twitter</a>
                 </li>
                 <li>
-                    <a href="#">Spotify</a>
+                    <a href="https://www.spotify.com/us/">Spotify</a>
                 </li>
             </ul>
         </nav>
