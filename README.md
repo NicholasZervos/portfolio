@@ -1,5 +1,5 @@
 # Portfolio
-I was given this image to try to duplicate the websites along with its functions. I re
+I was given this image to try to duplicate the websites layout along with its functions.
 ![image](https://user-images.githubusercontent.com/105948652/174195669-c2ea1b9e-2a61-4abf-8cea-da885dde065c.png)
 
 ## What was done
