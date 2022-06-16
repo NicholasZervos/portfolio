@@ -8,3 +8,5 @@ I was given this image to try to duplicate the websites layout along with its fu
 * links connected (just to the websites affilated not actual accounts)
 
 ## Screenshot and deloyable URL
+![image](https://user-images.githubusercontent.com/105948652/174196855-bcdfb2b4-b79a-46fa-933a-eb0881de8c8a.png)
+Deployable URL:https://nicholaszervos.github.io/portfolio/index.html
